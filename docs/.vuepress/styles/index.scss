@@ -1,0 +1,50 @@
+@import './normalized.scss';
+
+html, body {
+  font-family: "PingFang SC", "Microsoft YaHei";
+}
+
+body {
+  margin: 8px;
+}
+
+p, li {
+  line-height: 1.6;
+}
+
+p {
+  margin: 18px 0;
+}
+
+h2 {
+  margin-bottom: 40px;
+  padding: 5px 0;
+  border-bottom: 2px solid lightgrey;
+  color: #666;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #666;
+}
+
+
+img {
+  width: 100%;
+}
+
+
+// layout
+.container {
+  margin: 0% 14%;
+  padding: 2% 8% 4% 8%;
+  border: 1px solid LightGrey;
+  min-height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    margin: 0 8px;
+    padding: 2% 4% 4%;
+    border: none;
+  }
+}
