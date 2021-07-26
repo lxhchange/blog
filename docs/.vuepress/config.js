@@ -5,4 +5,5 @@ module.exports = {
   lang: 'zh-CN',
   description: '......',
   theme: path.resolve(__dirname, './theme/'),
+  base: '/blog/'
 }
