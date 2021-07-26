@@ -1,1 +1,0 @@
-(self.webpackChunkblog=self.webpackChunkblog||[]).push([[92],{92:(n,e,u)=>{"use strict";u.r(e),u.d(e,{default:()=>r});var l=u(252);const r={render:function(n,e){return(0,l.wg)(),(0,l.j4)("div",null,"404 not Found")}}}}]);
