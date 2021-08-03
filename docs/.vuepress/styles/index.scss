@@ -48,3 +48,26 @@ img {
     border: none;
   }
 }
+
+ul {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+  border: 1px solid #eee;
+  padding: 0 16px;
+}
+
+ul li {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+ul li a {
+  display: block;
+}
