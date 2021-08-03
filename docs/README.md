@@ -6,4 +6,4 @@ pageClass: home
 
 ## 文章列表
 
-- [重学前端](/frontend)
+- [重学前端](./frontend.md)

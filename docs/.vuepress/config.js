@@ -5,5 +5,9 @@ module.exports = {
   lang: 'zh-CN',
   description: '......',
   theme: path.resolve(__dirname, './theme/'),
-  base: '/blog/'
+  base: '/blog/',
+  extendMarkdown: md => {
+    // use more markdown-it plugins!
+    md.use(require('markdown-it-task-lists'))
+  }
 }

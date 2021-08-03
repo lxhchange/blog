@@ -12,6 +12,11 @@ p, li {
   line-height: 1.6;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 p {
   margin: 18px 0;
 }
@@ -49,25 +54,27 @@ img {
   }
 }
 
-ul {
-  margin: 0;
-  list-style: none;
-  padding: 0;
-  border: 1px solid #eee;
-  padding: 0 16px;
-}
-
-ul li {
-  height: 40px;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #eee;
-
-  &:last-child {
-    border-bottom: none;
+.home.container {
+  ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    border: 1px solid #eee;
+    padding: 0 16px;
   }
-}
-
-ul li a {
-  display: block;
+  
+  ul li {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+  
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+  
+  ul li a {
+    display: block;
+  }
 }
