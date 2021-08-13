@@ -1,6 +1,6 @@
 ---
-title: ** 第一篇 变量
-description: **
+title: 重学前端 第一篇 变量
+description: 重学前端
 ---
 
 ## 变量类型
